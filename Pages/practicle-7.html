@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <STYLE>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container::after{
+            content:"";
+            display: block;
+            clear: both;
+
+        }
+        h2{
+            text-align: center;
+            margin: 10PX AUTO;
+        }
+        
+        .HEADER{
+            position: fixed;
+            TOP:0;
+            background-color:gray ;
+            line-height: 70px;
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+        #HERO{
+            width:100%;
+            height: 100VH;
+            text-align: center;
+            background-color: aqua;
+            color: white;
+            line-height: 100VH;
+            margin-bottom: 10px;
+            font-size: 40PX;
+        }
+        .SEC-1{
+            content:"";
+            display: block;
+            clear: both;
+            width: 100%;
+            height:300px;
+            margin-bottom: 20px;
+        }
+       .SEC-1 .CIRCLE{
+           float: left;;
+           border-radius: 100%;
+           padding: 10%;
+           background-color: darkgoldenrod;
+           MARGIN-LEFT:4%;
+           
+           
+        }
+        .SEC-2{
+            height: 400PX;
+            width: 100%;
+            display: block;
+            COLOR:WHITE;
+        }
+        .MAIN{
+            text-align:center;
+            float: left;
+            background-color: gray;
+            line-height:400px;
+            width: 46%;
+            margin-right: 4%;
+            margin-left: 2%;
+            height:100%;
+        }
+        .ARTICLE{
+            float: left;
+            width:46%;
+            height: 100%;
+            margin-right: 2%;
+
+        }
+
+        .ART{
+            text-align: center;
+            width: 100%;
+            height: 30%;
+            margin: 0px;
+            margin-bottom:20px;
+            background-color: orange;
+            line-height: 120px;
+        }
+        .SEC-3{
+            display: block;
+            width: 100%;
+            height: 300PX;
+            margin-bottom: 20PX;
+        }
+        .REC{
+            float: LEFT;
+            width: 22%;
+            height: 100%;
+            margin-left: 2.5%;
+            background-color: red;
+        }
+        .FOOTER{
+            text-align: center;
+            line-height: 60PX;
+            height: 60PX;
+            background-color: plum;
+            position: FIXED;
+            BOTTOM:0;
+            width: 100%;
+        }
+
+    </STYLE>
+</head>
+<body style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border: 5PX SOLID gainsboro;  padding: 2PX; font-weight: bolder;">
+    <DIV CLASS="HEADER">
+        Header
+    </DIV>
+        <div CLASS="container">
+            <div ID="HERO">
+                    BANNER
+            </div>
+            <div>
+                <H2 >Section-1</H2>
+                <div CLASS="SEC-1">
+                    <DIV CLASS="CIRCLE"></DIV>
+                    <DIV CLASS="CIRCLE"></DIV>
+                    <DIV CLASS="CIRCLE"></DIV>
+                    <DIV CLASS="CIRCLE"></DIV>
+                </div>
+                <h2>Section-2</h2>
+                <div CLASS="SEC-2">
+                    <DIV CLASS="MAIN">
+                        Main Content
+                    </DIV>
+                    <DIV CLASS="ARTICLE">
+                        <DIV CLASS="ART">Article-1</DIV>
+                        <DIV CLASS="ART">Article-2</DIV>
+                        <DIV CLASS="ART" style="margin-bottom: 0%;"> Article-3</DIV>
+                    </DIV>
+                </div>
+                <H2>Section-3</H2>
+                <div CLASS="SEC-3">
+                    <DIV CLASS="REC"> </DIV>
+                    <DIV  CLASS="REC"></DIV>
+                    <DIV CLASS="REC"> </DIV>
+                    <DIV CLASS="REC"></DIV>
+                </div>
+                <div CLASS="SEC-4">
+                    <H2>Section-4</H2>
+                    <DIV CLASS="FOOTER">
+                            Footer
+                    </DIV>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
