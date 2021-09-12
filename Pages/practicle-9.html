@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <STYLE>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container::after{
+            content:"";
+            display: block;
+            clear: both;
+
+        }
+        h2{
+            text-align: center;
+            margin: 10PX AUTO;
+        }
+        
+        .HEADER{
+            position: fixed;
+            TOP:0;
+            background-color:gray ;
+            line-height: 70px;
+            text-align: center;
+            color: white;
+            width: 100%;
+            font-size:x-large;
+            text-decoration: none;
+        }
+        #HERO{
+            display:cover;
+            width:100%;
+            height: 100vh;
+            background-image: url("../Images/\'8\'-related/HERO.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 40PX;
+        }
+        .SEC-1{
+            display: block;
+            width: 100%;
+            height:300px;
+            margin-bottom: 20px;
+            overflow: auto;
+        }
+       .SEC-1 .CIRCLE{
+           float: left;;
+           border-radius: 100%;
+           width: 300px;
+           height: 300px;
+           MARGIN-LEFT:4%;
+           overflow: hidden;
+        }
+        .SEC-1 img{
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+        }
+        .SEC-2{
+            height: 400PX;
+            width: 100%;
+            display: block;
+            COLOR:WHITE;
+        }
+        .MAIN{
+            padding: 5PX;
+            text-align:justify;
+            float: left;
+            background-color: gray;
+            width: 46%;
+            margin-right: 4%;
+            margin-left: 2%;
+            height:100%;
+        }
+        .ARTICLE{
+            float: left;
+            width:46%;
+            height: 100%;
+            margin-right: 2%;
+
+        }
+        .ART{
+            color: whitesmoke;
+            text-align: center;
+            width: 100%;
+            height: 30%;
+            margin: 0px;
+            margin-bottom:20px;
+            background-color: orange;
+        }
+        .SEC-3{
+            display: block;
+            width: 100%;
+            height: 470PX;
+            margin-bottom: 10PX;
+            text-align: center;
+            overflow:auto;
+        }
+        .REC{
+            display:block;
+            float: left;
+            background-color: lightgray;
+            border-radius: 12px;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            margin-left: 80px;
+            width: 270px;
+            height: 400px;
+            margin-bottom: 50px;
+            overflow: hidden;
+        }
+        .FOOTER{
+            color: white;
+            text-align: center;
+            height: 100PX;
+            background-color: plum;
+            BOTTOM:0;
+            width: 100%;
+            font-size:x-large;
+            padding: 10px;
+            line-height: 40px;
+        }
+        .SEC-3 h3{
+            font-family:monospace;
+            font-size:larger;
+            font-weight:bolder;
+            padding: 5px;
+        }
+        .SEC-3 img{
+            border-radius: 10px;
+            width: 100%;
+            height:130px;
+        }
+        .SEC-3 p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            height: 150px;
+            text-align: justify;
+            overflow: hidden;
+        }
+        .SEC-3 button{
+            line-height: 30px;
+            margin-top: 10px;
+            background-color: red;
+            color:lightcyan;
+            border-radius: 5px;
+            border:1px solid black;
+            width: 100%;
+        }
+        .SEC-3 a :hover{
+            background-color: blue;
+        }
+        .HEADER span{
+            margin: 3px 20px;
+
+        }
+        .HEADER a{
+            text-decoration: none;
+            color:white;
+            padding: 5px;
+            border-radius: 4px;
+        } 
+        .HEADER a:hover{
+            background-color: aliceblue;
+            color:black;
+        }
+        .SEC-4{
+            display: block;
+            height: 50px;
+            width: 100%;
+        }
+        .container div h2{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </STYLE>
+</head>
+<body style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; border: 5PX SOLID gainsboro;  padding: 2PX; font-weight: bolder;">
+    <DIV CLASS="HEADER" id="top">
+        <nav style="margin-left: 100px; margin-right: 100px;">
+            <span><a href="#">HOME</a></span>
+            <span><a href="#ABOUT-US">ABOUT US</a></span>
+            <span><a href="#TEAM">TEAM</a></span>
+            <span><a href="#TECHNOLOGIES">TECHNOLOGIES</a></span>
+            <span><a href="#CONTACT">CONTACT</a></span>
+        </nav>
+    </DIV>
+        <div CLASS="container" style="margin-top: 100px;">
+            <div ID="HERO">
+                <h3 style="text-align: left;">PRACTICAL-8</h3>
+            </div>
+            <div  >
+                <H2 ID="TEAM" >Team Members </H2>
+                <div CLASS="SEC-1">
+                    <DIV CLASS="CIRCLE">
+                        <img src="../Images/'8'-related/user1.png" alt="">
+                    </DIV>
+                    <DIV CLASS="CIRCLE">
+                        <img src="../Images/'8'-related/user2.png" alt="">
+                    </DIV>
+                    <DIV CLASS="CIRCLE">
+                        <img src="../Images/'8'-related/user3.png" alt="">
+                    </DIV>
+                    <DIV CLASS="CIRCLE">
+                        <img src="../Images/'8'-related/user4.png" alt="">
+                    </DIV>
+                </div>
+                <h2 ID="ABOUT-US">About Us</h2>
+                <div CLASS="SEC-2">
+                    <DIV CLASS="MAIN">
+                        <h3 style="text-align: left;">About Projects</h3>
+                        <br>
+                        <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corporis voluptates impedit accusantium excepturi ad assumenda in totam ex nobis accusamus adipisci voluptate at magni, laborum iste sint animi distinctio. Aspernatur magnam fugiat maxime nam obcaecati quos, architecto maiores porro labore omnis quasi reiciendis quia assumenda doloribus at voluptate rerum, quibusdam ipsam quae, nostrum distinctio. Reiciendis quisquam veritatis maxime eius explicabo repellat impedit amet! Commodi cumque amet vitae modi id laboriosam reiciendis animi illo dolores corrupti, nihil voluptate autem facere! Reprehenderit culpa, natus quos, unde dolor ab dolorum cupiditate fugiat dolores sequi, odio nihil temporibus. Molestiae quam deleniti veritatis vel. ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi libero ipsa in nisi placeat repellat magni amet nobis quaerat. Fuga incidunt, cupiditate ducimus magnam reiciendis possimus repellat, quasi obcaecati exercitationem minus consectetur adipisci voluptatem similique repudiandae. Dignissimos illo inventore veritatis a nihil, ut eaque alias debitis, molestiae sapiente maiores delectus corrupti consequuntur autem saepe totam! Deleniti itaque numquam temporibus optio cum similique iure quos, doloremque quidem delectus iusto dolorum maiores fuga vel praesentium eos dolor doloribus molestias sunt veniam nobis earum saepe suscipit ex? Eaque, nihil eveniet magni recusandae deserunt officiis numquam inventore, corrupti nobis labore, officia cupiditate consectetur!</p>
+                    </DIV>
+                    <DIV CLASS="ARTICLE">
+                        <DIV CLASS="ART" style="background-image: url(../Images/\'8\'-related/project1.png);">Project-1</DIV>
+                        <DIV CLASS="ART" style="background-image: url(../Images/\'8\'-related/project2.png);">Project-2</DIV>
+                        <DIV CLASS="ART" style="background-image: url(../Images/\'8\'-related/project3.png); margin-bottom: 0%;">Project-3</DIV>
+                    </DIV>
+                </div>
+                <H2 ID="TECHNOLOGIES">Technologies Used</H2>
+                <div CLASS="SEC-3">
+                    <div class="card REC">
+                        <img src="../Images/'6'-related/html.png" alt="">
+                        <h3>Introduction to HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quasi et atque eius ratione, architecto debitis facilis est, voluptatum id ut assumenda incidunt necessitatibus autem aliquid magni eligendi voluptate. Esse, iusto. Eius voluptatum commodi culpa eveniet blanditiis porro, sunt molestiae facilis officia ipsam distinctio consequatur ratione, sit in alias qui!</p>
+                        <a href="../Sub-Pages/'6'-related/5-html.html"><button>Read More</button></a>
+                    </div>
+                    <div class="card REC">
+                        <img src="../Images/'6'-related/css.jpg" alt="">
+                        <h3>Introduction to CSSL</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi laboriosam voluptatum at reprehenderit iure dolore, nulla natus maiores saepe dolorem nam sed id reiciendis asperiores, possimus, soluta laudantium recusandae voluptatem enim voluptas obcaecati omnis molestiae tenetur? Atque alias voluptatibus nam quos aut veniam similique. Molestiae, similique laudantium. Assumenda, minima magni?</p>
+                        <a href="../Sub-Pages/'6'-related/5-css.html"><button>Read More</button></a>
+                    </div>
+                    <div class="card REC">
+                        <img src="../Images/'6'-related/javascript.jpg" alt="">
+                        <h3>Introduction to Javascript</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam sed dolore pariatur labore sint, cum ea repellat nostrum ullam blanditiis possimus quae ipsum nemo at in unde optio autem natus dolorum. Expedita consequatur dicta sit eligendi blanditiis doloremque aut ipsam saepe. Assumenda minima quidem debitis aperiam incidunt vero officiis porro.</p>
+                        <a href="../Sub-Pages/'6'-related/5-javascript.html"><button>Read More</button></a> 
+                    </div>
+                    <div class="card REC">
+                        <img src="../Images/'6'-related/bootstrap.png" alt="">
+                        <h3>Introduction to Bootstrap</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ex libero iure maxime quo, dolor numquam? Aspernatur amet repellendus mollitia sit, a commodi quisquam in nisi necessitatibus laborum eius praesentium eaque doloribus quia reprehenderit doloremque nesciunt excepturi quibusdam quos nostrum veniam. Nobis perspiciatis dolor animi facilis tenetur voluptas necessitatibus cupiditate?</p>
+                        <a href="../Sub-Pages/'6'-related/5-bootstrap.html"><button>Read More</button></a>
+                   </div>
+                </div>
+                <h2 ID="CONTACT">Contact</h2>
+                <div CLASS="SEC-4">
+                    <DIV CLASS="FOOTER">
+                        Website Template for Practical-8 <a href="#">Beta-labs</a>
+                        <br>
+                        <a href="#top">Back To top</a>
+                    </DIV>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
